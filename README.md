@@ -31,7 +31,7 @@ You can view a live [CraftMyCV](https://craftmycv.netlify.app/)
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:5173` to view the application.
+5. Open your browser and navigate to `http://localhost:4173` to view the application.
 
 
 ## Contributing
