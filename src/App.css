@@ -19,8 +19,8 @@
   flex-direction: colume;
   flex-wrap: wrap;
   width: auto;
-  justify-content: space-between;
-  //gap: 10px;
+  justify-content: space-evenly;
+ 
 }
 
 .card{
