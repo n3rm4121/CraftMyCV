@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.saved-card {
+  border-radius: 20px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.container{
+ 
+  display: flex; 
+  flex-direction: colume;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-between;
+  //gap: 10px;
+}
+
+.card{
+  width: 260px;
+  gap: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);  
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.6), 0 0 30px rgba(0, 123, 255, 0.4), 0 0 40px rgba(0, 123, 255, 0.2);
+}
+
+.save-button, .delete-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #FF4136;
+}
+
+.delete-button:hover {
+  background-color: #b32e1a;
+}
+
+.saved-card {
+  
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saved-card h4 {
+  margin: 0;
+}
+
+.inputContainer{
+  flex-direction: column;
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  
+}
+
+.resume  header{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+header a {
+  color:blue;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header h1{
+  font-size: 3em;
+}
+
+.resume{
+  font-family: Times New Roman;
+  padding: 10px;
+  background-color: #f8f9fa;
+  width: 900px;
+  height: auto;
+}
+
+.outputContainer{
+  padding: 10px;
+  margin: 20px;
+  
+  height: auto;
+ width: auto;
+  
+  font-family: Times New Roman;
+ /* font-size: 1.1em; */
+}
+
+
+input {
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  
+  font-size: 16px;
+}
+
+
+
+
+// resume css start
+
+
+section {
+  margin-bottom: 1.5em;
+}
+
+section h2 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+  
+}
+
+
+
+li {
+  margin-left: 1em;
+  list-style-type: disc;
+}
+
+ul{
+  margin-bottom: 10px;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+
+
+// resume css end
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content {
+  display: none; /* Hide content by default */
+}
+
+.card.expanded .card-content {
+  display: block; /* Show content when card is expanded */
+}
+
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggle-btn:hover {
+  color: #007BFF;
+}
