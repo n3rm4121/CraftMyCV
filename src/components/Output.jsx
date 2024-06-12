@@ -25,7 +25,7 @@ export default function Output() {
 
 
   function downloadPdf() {
-    const element = document.getElementById('pdf-content'); // Assuming 'pdf-content' is the id of the container with the CV content
+    const element = document.getElementById('pdf-content'); 
     html2pdf().from(element).save();
   }
   
@@ -39,7 +39,7 @@ export default function Output() {
       
         <h1>{title.name}</h1>
         <p> <span>&#9993;</span>  {title.email} | <span>&#9990;</span> {title.phone} | <FaLinkedin /> <a
-          target="blank" href={`https://linkedin.com/in/ ${title.linkedinUsername}`}>{title.linkedinUsername}</a></p>
+          target="blank" href={`https://linkedin.com/in/${title.linkedinUsername}`}>{title.linkedinUsername}</a></p>
 
       </header>
 
