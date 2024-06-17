@@ -13,11 +13,10 @@ import HonorForm from './components/HonorsForm'
 import { HonorProvider } from './Contexts/HonorContext'
 import ProjectForm from './components/AcademicProjectsForm'
 import { ProjectProvider } from './Contexts/AcademicProjectsContext'
-
+import Footer from './components/Footer'
 
 
 function App() {
-
   return (
     
     <ExperienceProvider>
@@ -46,6 +45,8 @@ function App() {
         </div>
 
       </div>
+        <Footer />
+
       </ProjectProvider>
       </HonorProvider>
       </TitleProvider>

@@ -216,3 +216,12 @@ ul li strong {
 .toggle-btn:hover {
   color: #007BFF;
 }
+
+
+footer{
+  background-color:  rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  
+}
