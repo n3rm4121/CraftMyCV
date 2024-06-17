@@ -14,13 +14,14 @@
 }
 
 .container{
- 
+  min-height: 100vh;
+  adding-bottom: 60px;
   display: flex; 
   flex-direction: colume;
   flex-wrap: wrap;
   width: auto;
   justify-content: space-evenly;
- 
+  p
 }
 
 .card{
@@ -223,5 +224,6 @@ footer{
   padding: 10px;
   font-size: 14px;
   text-align: center;
-  
+  bottom: 0;
+  display: flex-end;
 }

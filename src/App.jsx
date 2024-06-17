@@ -43,9 +43,9 @@ function App() {
         
         <Output />
         </div>
-
+        
       </div>
-        <Footer />
+      <Footer />
 
       </ProjectProvider>
       </HonorProvider>
