@@ -11,13 +11,13 @@ You can view a live [CraftMyCV](https://craftmycv.netlify.app/)
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/n3rm4121/CV-Builder.git
+   git clone https://github.com/n3rm4121/CraftMyCV.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd CV-Builder
+   cd CraftMyCV
    ```
 
 3. Install dependencies:
