@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab38f942-605e-4b2c-8935-5891df5f432a/deploy-status)](https://app.netlify.com/sites/craftmycv/deploys)
 # CraftMyCV
 
 CraftMyCV is a easy way to make your professional CV.
